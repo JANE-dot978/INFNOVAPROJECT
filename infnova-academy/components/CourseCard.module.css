@@ -1,4 +1,4 @@
-.card {
+/* .card {
   display: block;
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -37,4 +37,4 @@
 .card:nth-child(5){animation-delay:.25s}
 .card:nth-child(6){animation-delay:.30s}
 .card:nth-child(7){animation-delay:.35s}
-.card:nth-child(8){animation-delay:.40s}
+.card:nth-child(8){animation-delay:.40s} */

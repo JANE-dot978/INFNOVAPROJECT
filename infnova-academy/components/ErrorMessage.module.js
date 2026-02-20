@@ -1,4 +1,4 @@
-.wrapper { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 60px 20px; text-align: center; }
-.icon { color: var(--red); opacity: 0.7; }
-.title { font-family: var(--font-display); font-size: 18px; font-weight: 700; }
-.message { font-size: 14px; color: var(--gray); max-width: 360px; line-height: 1.6; }
+// .wrapper { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 60px 20px; text-align: center; }
+// .icon { color: var(--red); opacity: 0.7; }
+// .title { font-family: var(--font-display); font-size: 18px; font-weight: 700; }
+// .message { font-size: 14px; color: var(--gray); max-width: 360px; line-height: 1.6; }
