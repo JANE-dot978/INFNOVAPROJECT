@@ -1,6 +1,6 @@
 
-import { getCourses } from "@/lib/api";
-import ErrorMessage from "@/components/ErrorMessage";
+import { getCourses } from "../lib/api";
+import ErrorMessage from "../components/ErrorMessage";
 import CoursesClient from "./CoursesClient";
 import styles from "./page.module.css";
 

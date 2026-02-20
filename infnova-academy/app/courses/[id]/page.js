@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getCourseById } from "@/lib/api";
-import ErrorMessage from "@/components/ErrorMessage";
+import { getCourseById } from "../../../lib/api";
+import ErrorMessage from "../../../components/ErrorMessage";
 import styles from "./detail.module.css";
 
 export async function generateMetadata({ params }) {
@@ -40,7 +40,7 @@ export default async function CourseDetailPage({ params }) {
   return (
     <div className={styles.page}>
 
-      {/* Back link */}
+    
       <Link href="/" className={styles.backLink}>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" strokeWidth="2.5">
@@ -49,7 +49,7 @@ export default async function CourseDetailPage({ params }) {
         Back to Courses
       </Link>
 
-      {/* Orange Hero Banner */}
+    
       <div className={styles.hero}>
         <div className={styles.heroContent}>
           <p className={styles.heroCatLabel}>{course.category.toUpperCase()}</p>
@@ -84,13 +84,13 @@ export default async function CourseDetailPage({ params }) {
             </span>
           </div>
 
-          {/* Level badge */}
+          
           <div style={{ marginTop: "14px" }}>
             <span className={`badge ${levelClass}`}>{course.level} Level</span>
           </div>
         </div>
 
-        {/* Thumbnail */}
+        
         <div className={styles.heroImage}>
           <Image
             src={course.thumbnail}
@@ -102,13 +102,13 @@ export default async function CourseDetailPage({ params }) {
         </div>
       </div>
 
-      {/* Two-column layout */}
+    
       <div className={styles.layout}>
 
-        {/* LEFT COLUMN */}
+      
         <div className={styles.left}>
 
-          {/* What You'll Learn */}
+          
           <div className={styles.box}>
             <h2 className={styles.boxTitle}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
@@ -131,7 +131,7 @@ export default async function CourseDetailPage({ params }) {
             </ul>
           </div>
 
-          {/* Course Description */}
+          
           <div className={styles.box}>
             <h2 className={styles.boxTitle}>Course Description</h2>
             <p className={styles.descText}>{course.description}</p>
@@ -143,7 +143,7 @@ export default async function CourseDetailPage({ params }) {
             </p>
           </div>
 
-          {/* Instructor */}
+          
           <div className={styles.box}>
             <h2 className={styles.boxTitle}>Your Instructor</h2>
             <div className={styles.instructorRow}>
@@ -163,7 +163,7 @@ export default async function CourseDetailPage({ params }) {
 
         </div>
 
-        {/* RIGHT COLUMN — Enroll Sidebar */}
+        
         <aside>
           <div className={styles.enrollBox}>
             <h3 className={styles.enrollTitle}>Enroll Today</h3>
