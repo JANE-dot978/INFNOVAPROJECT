@@ -1,7 +1,4 @@
-/**
- * Route: "/"  — Courses Listing Page
- * Server Component: data is fetched on the server before HTML is sent.
- */
+
 import { getCourses } from "@/lib/api";
 import ErrorMessage from "@/components/ErrorMessage";
 import CoursesClient from "./CoursesClient";
@@ -19,7 +16,7 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Orange Hero */}
+    
       <section className={styles.hero}>
         <h1 className={styles.heroTitle}>Explore Our Courses</h1>
         <p className={styles.heroSub}>
@@ -28,7 +25,7 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* Search + Grid */}
+      
       <section className={styles.container}>
         {error ? (
           <ErrorMessage message={error} />

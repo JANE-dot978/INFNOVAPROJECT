@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&display=swap");
 
-/* ── Design tokens ── */
 :root {
   --orange: #f97316;
   --orange-dark: #ea6c0a;
@@ -21,7 +20,7 @@
   --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.14);
 }
 
-/* ── Reset ── */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -41,7 +40,7 @@ a { text-decoration: none; color: inherit; }
 img { display: block; max-width: 100%; }
 button { cursor: pointer; font-family: var(--font-body); border: none; background: none; }
 
-/* ── Shared utility classes ── */
+
 .btn-orange {
   display: inline-flex;
   align-items: center;
@@ -107,7 +106,7 @@ button { cursor: pointer; font-family: var(--font-body); border: none; backgroun
   color: var(--dark);
 }
 
-/* Animations */
+
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(14px); }
   to   { opacity: 1; transform: translateY(0); }

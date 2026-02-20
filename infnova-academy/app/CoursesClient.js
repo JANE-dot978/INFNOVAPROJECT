@@ -1,7 +1,4 @@
-/**
- * Client Component — handles live search filter.
- * Receives pre-fetched courses from the Server Component parent.
- */
+
 "use client";
 
 import { useState } from "react";
@@ -22,7 +19,7 @@ export default function CoursesClient({ courses }) {
 
   return (
     <>
-      {/* Search bar */}
+      
       <div className={styles.searchBar}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" strokeWidth="2">
@@ -41,12 +38,12 @@ export default function CoursesClient({ courses }) {
         )}
       </div>
 
-      {/* Count */}
+      
       <p className={styles.showing}>
         Showing <strong>{filtered.length}</strong> of {courses.length} courses
       </p>
 
-      {/* Grid */}
+      
       {filtered.length > 0 ? (
         <div className={styles.grid}>
           {filtered.map((course) => (

@@ -1,9 +1,0 @@
-.card { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--white); }
-.image { height: 168px; width: 100%; }
-.body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; }
-.category { height: 10px; width: 80px; }
-.title { height: 14px; width: 100%; }
-.titleShort { height: 14px; width: 70%; }
-.instructor { height: 11px; width: 55%; margin-top: 2px; }
-.meta { display: flex; gap: 12px; margin-top: 4px; }
-.metaItem { height: 11px; width: 52px; }

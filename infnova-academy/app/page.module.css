@@ -1,4 +1,4 @@
-/* Hero */
+
 .hero {
   background: var(--orange);
   padding: 52px 40px;
@@ -41,10 +41,10 @@
   position: relative;
 }
 
-/* Container */
+
 .container { padding: 32px 40px 0; }
 
-/* Search bar */
+
 .searchBar {
   display: flex;
   align-items: center;
@@ -78,18 +78,17 @@
 }
 .clearBtn:hover { color: var(--dark); }
 
-/* Count */
+
 .showing { font-size: 13px; color: var(--gray); margin-bottom: 22px; }
 .showing strong { color: var(--dark); }
 
-/* Grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
-/* No results */
+
 .noResults {
   padding: 48px 0;
   text-align: center;
@@ -97,7 +96,7 @@
   font-size: 14px;
 }
 
-/* Responsive */
+
 @media (max-width: 1024px) { .grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 640px) {
   .hero { padding: 36px 20px; }
